@@ -1,0 +1,143 @@
+
+#main{text-align:center; min-height:100%; max-height:auto}
+#main_fba{text-align:center; min-height:100%;max-height:auto}
+#mainheader{background-color:#e6f2ff;padding:5px;
+			width:100%; height:50px; margin:auto;
+			text-align:center; border: 1px solid #0080ff}
+#mainfooter{background-color:#e6f2ff; border: 1px solid #0080ff; width:100%; text-align:center; margin-top:10px;}
+      
+#mainfooter_fba{background-color:#e6f2ff; border: 1px solid #0080ff; width:100%; text-align:center;margin-top:15px;}
+
+.viewoptions{float:left; border: 1px solid #0080ff; padding:5px; margin-left:10px;}
+.viewoptions img{height:181px;}
+hr{color:#0080ff;}
+
+#mainmid{}
+.navitem{float:left; height:44px; font-weight:bold; margin: 0;padding:5px;}
+.navitem label{padding:10px;}
+.navitem li{margin-left:5px;}
+.navitem a{background-color:#0080ff; color:#fff; border: 1px solid #0080ff; padding:5px; height:100%;}
+#searchform{position:absolute; right:10px}
+.clickme{background-color:#0080ff; color:#fff; border: 1px solid #0080ff;padding:5px; height:40px}
+.clickme:link, .navitem a:link{text-decoration:none;}
+.clickme:hover, .navitem a:hover{background-color:#e6f2ff; color:#000}
+#nav {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+#nav li{display:inline}
+
+midfba1{width:100%}
+#mainfbaform{width:100%;}
+#midh2{margin:auto; width:90%;}
+.fbaicon{border: 1px solid #0080ff; width:138px; height:142px}
+.mainfba_hori_div{display:inline_block;}
+.fieldset_analysis, input {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;background-color:#e6f2ff}
+#midfba1 fieldset {display: inline;width: 200px;margin:30px;background-color:#e6f2ff;} 
+  
+ input [type="text"]{background:#fff;}
+ #mainfbaform form input [type='select']{
+     height:40px;
+     width:100px;
+     padding:10px;
+ }  
+/*Faq*/
+faq_main{text-align:left}
+	width:42px;	
+}
+
+/********srch**********/
+#midh1search{margin:auto; width:100%;position:relative;}
+#midh2search{margin:auto; width:100%; position:relative;}
+#mainsearchtext{width:70%;,padding:8px;height:35px; box-shadow: 2px; background:#fff; border-radius: 5px}
+#searchkeyword{width:70%;,padding:8px;height:35px; box-shadow: 2px; background:#fff; border-radius: 5px}
+#searchtop{padding:8px;height:35px}
+#mainsearchbtn{padding:8px;height:35px;box-shadow:2px 2px;background:#ffff; border-radius:5px;}
+.navlink{margin:auto; padding:5px; display:inline}
+
+
+#search th{background:#0080ff; color:#fff; height:40px; padding:5px;}
+#search tr:nth-child(even) {background:#e6f2ff; outline:1px groove #000}
+#search tr:nth-child(odd) {background: #FFF;}
+#search {text-align:center; border:1px ridge #0080ff}
+
+#fba_request_btn{width:30%; padding:10pz;box_shadow: 2px 2px; background:#0080ff; color:#fff; border-radius: 20px; height:60px; font-size:24px; font-weight:bold;}
+
+/****res**/
+#result{width:100%; margin:10%}
+
+#run_fba_form{
+width:60%;
+margin:auto;
+border-radius: 10px;
+box-shadow: 2px 2px;
+border: 1px solid #0080ff;
+}
+
+/*******fba***************/
+select{
+height:40px;
+padding:2px;
+border-radius:5px;
+}
+
+.input_item_x{
+height:40px;
+padding:2px;
+border-radius:5px;
+background:#fff;
+}
+
+/*style items (options):*/
+option { position: absolute;top: 100%;left: 0;right: 0;z-index: 99;}
+
+
+option {
+  background:#e6f2ff;
+  height:24px;
+}
+
+/*****search***/
+#result{
+color:#000;
+text-align:left;
+}
+
+
+#searchitem{background:#fff}
+#choose_conc{background:#fff}
+#searched_item{background:#fff; width:40%; border-radius:5px;padding:10px; margin:5px}
+#search{width: 80%; margin:0; table-layout:fixed}/*explore*/
+#search tr{border-style: ridge; border-bottom:1px ridge #0080ff}/
+.searchtable{box-shadow:1px 1px 1px 1px; border-radius:5px; width:95%; margin:0; }
+
+.search_message_paragraph{
+}
+.boxed{border:1px solid #0080ff}
+.medium_boxes{border:1px solid #0080ff; border-radius:5px; width:25%; margin:5px;display:inline-block; padding: 5px;}
+.download_arena{border:1px solid #0080ff; border-radius:5px; width:70%; margin:5px;display:inline-block; padding: 5px; box-shadow: 1px 1px 1px 1px}
+
+.dlink{height:44px; font-weight:bold; margin: 0;padding:5px;}
+.dlink{background-color:#0080ff; color:#fff; border: 1px solid #ffffff; padding:5px; height:100%;}
+.dlink:link{text-decoration:none;}
+.dlink:hover{background-color:#e6f2ff; color:#000}
+
+#download{width: 100%; margin:0;    border-collapse: collapse; table-layout: fixed; border: 1px solid #0080ff; text-align:center}
+#downlad th{text-align:center}
+#download tr{outline:1px groove #0080ff; padding:5px;}
+#download td {word-wrap: break-word; outline:1px groove #0080f; padding:5px; border: 1px solid #0080ff}
+
+.dwtabh2{background: #0080ff; color:#fff;padding: 5px; height: 40px;}
+
+#search_model th{background:#0080ff; color:#fff; height:40px; padding:5px;}
+#search_model tr:nth-child(even) {background:#e6f2ff; outline:1px groove #000}
+#search_model tr:nth-child(odd) {background: #FFF;}
+#search_model {text-align:center; border:1px ridge #0080ff}
+#search_model {width: 90%; margin:auto; table-layout:fixed; word-wrap: break-word;}
+
+.outputbox{display:inline-block; background:#fff; width:65%; border-radius:2px;padding:5px;box-shadow: 1px 1px 1px 1px; margin-left:10%; margin-top:5%}
+.outputbox iframe{height:400px; width:100%; border-style:groove border:1px #000; text-align:center }
+.outputbox_sub{display:block;}
+.ajdisplay{background:blue}
